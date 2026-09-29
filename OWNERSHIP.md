@@ -21,7 +21,7 @@ the SatNOGS Network belong to their contributors and are licensed CC BY-SA. Embr
 Inc. claims no ownership of that data. Third-party names and marks, including "SatNOGS",
 belong to their owners.
 
-**Affiliated companies.** Space Ocean Corp and other companies under common control with
+**Affiliated companies.** Companies under common control with
 Embryo Space Inc. may use, demonstrate and propose this software under the Apache-2.0
 license like anyone else, and under any separate written agreement with Embryo Space Inc.
 They do not own it unless a signed written assignment says otherwise.
