@@ -1,0 +1,15 @@
+Open Downlink Custody
+Copyright 2026 Embryo Space Inc. (DBA BSVKey)
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+lib/canonical.mjs, lib/merkle.mjs and lib/keys.mjs originate from the DTN Custody +
+Payment Demo (https://github.com/BSVKey/dtn-custody-demo), also owned by
+Embryo Space Inc. and licensed under Apache-2.0.
+
+Satellite data processed by this software comes from the SatNOGS Network
+(https://network.satnogs.org) and is licensed CC BY-SA by its contributors. That data is
+not part of this software and is not owned by Embryo Space Inc.
+
+Open Downlink Custody is not affiliated with or endorsed by the Libre Space Foundation.
+"SatNOGS" is used only to identify the public network this software reads from.
