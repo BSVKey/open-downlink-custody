@@ -111,6 +111,10 @@ Embryo Space Inc. (DBA BSVKey). See [OWNERSHIP.md](OWNERSHIP.md) and [NOTICE](NO
 Open an issue or a pull request. See [CONTRIBUTING.md](CONTRIBUTING.md). Requests from the
 Libre Space Foundation and station operators get priority.
 
+## Record format
+
+Record formats are specified in [CUSTODY-RECORDS.md](https://github.com/BSVKey/dtn-custody-demo/blob/main/spec/CUSTODY-RECORDS.md), with test vectors.
+
 ## License
 
 Software: Apache License 2.0, provided "AS IS", without warranties or conditions of any
