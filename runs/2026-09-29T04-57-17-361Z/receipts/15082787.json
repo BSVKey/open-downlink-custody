@@ -1,0 +1,39 @@
+{
+  "type": "odc.station-receipt/1",
+  "source": {
+    "network": "network.satnogs.org",
+    "attribution": "Data: SatNOGS Network contributors (https://network.satnogs.org)",
+    "license": "CC BY-SA",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "notice": "Open Downlink Custody is not affiliated with or endorsed by the Libre Space Foundation."
+  },
+  "observationId": 15082787,
+  "norad": 98330,
+  "transmitter": "DKkitSYmcbsaMq7upo6Ldg",
+  "mode": "GFSK",
+  "window": {
+    "start": "2026-09-29T04:09:33Z",
+    "end": "2026-09-29T04:16:20Z"
+  },
+  "station": {
+    "id": 310,
+    "name": "VA3TZA",
+    "owner": "yt2cq"
+  },
+  "frameCount": 1,
+  "frames": [
+    {
+      "i": 0,
+      "t": "2026-09-29T04:12:48Z",
+      "len": 78,
+      "leaf": "f4c66b09f5f0a775f6059b7fde1b2c4f0ec544c430d92b397b382bed6b4f4c8b",
+      "src": "https://s3.eu-central-1.wasabisys.com/satnogs-network/data_obs/2026/9/29/4/15082787/data_15082787_2026-09-29T04-12-48"
+    }
+  ],
+  "framesRoot": "f4c66b09f5f0a775f6059b7fde1b2c4f0ec544c430d92b397b382bed6b4f4c8b",
+  "witnessedAt": "2026-09-29T04:57:31.347Z",
+  "attests": "frames served by the public SatNOGS archive for this observation at witnessedAt; station did not sign",
+  "claimId": "0x9d0cd091f53085350cebc39fe6cea2eba0702f9502bf1f45946687ced1e5ab3c",
+  "sig": "9ml02Qg7PBs1YIdVeF45fTVsZFqXYzMNFPzbqMUjQZkUUYto8c+4gqbcOt9vV1kjLKK7NAsPoBUBn2PWX5VWBw==",
+  "signerPub": "MCowBQYDK2VwAyEA+lWXmGkpas54MnWmHpwKr7Ee1ekI5PndX4j7+zndIS8="
+}

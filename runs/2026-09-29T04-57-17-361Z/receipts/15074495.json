@@ -1,0 +1,39 @@
+{
+  "type": "odc.station-receipt/1",
+  "source": {
+    "network": "network.satnogs.org",
+    "attribution": "Data: SatNOGS Network contributors (https://network.satnogs.org)",
+    "license": "CC BY-SA",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "notice": "Open Downlink Custody is not affiliated with or endorsed by the Libre Space Foundation."
+  },
+  "observationId": 15074495,
+  "norad": 69015,
+  "transmitter": "JqdpyL9Ft5jMvQ8VXy57wx",
+  "mode": "FSK AX.100 Mode 5",
+  "window": {
+    "start": "2026-09-29T04:43:46Z",
+    "end": "2026-09-29T04:47:52Z"
+  },
+  "station": {
+    "id": 760,
+    "name": "KD5QZG - VHF/UHF",
+    "owner": "adammelancon"
+  },
+  "frameCount": 1,
+  "frames": [
+    {
+      "i": 0,
+      "t": "2026-09-29T04:47:05Z",
+      "len": 50,
+      "leaf": "4adab99cc335c1bb6dce3e2e32c80742e7d5caace61f930afa36e745bc453717",
+      "src": "https://s3.eu-central-1.wasabisys.com/satnogs-network/data_obs/2026/9/29/4/15074495/data_15074495_2026-09-29T04-47-05"
+    }
+  ],
+  "framesRoot": "4adab99cc335c1bb6dce3e2e32c80742e7d5caace61f930afa36e745bc453717",
+  "witnessedAt": "2026-09-29T04:57:32.473Z",
+  "attests": "frames served by the public SatNOGS archive for this observation at witnessedAt; station did not sign",
+  "claimId": "0xe8727e97f0bfbe38f6351fab3d467854329d0d33631c3aadfcf9b0ae4235ec50",
+  "sig": "UvzG1AktHNjoCh1GFm35eBzjocFhlgIezl/uzRD+r4dCQLT9lmzecC7hcJC9FncBsfBSTSNzZnXVXjFeOn+zDA==",
+  "signerPub": "MCowBQYDK2VwAyEA+lWXmGkpas54MnWmHpwKr7Ee1ekI5PndX4j7+zndIS8="
+}

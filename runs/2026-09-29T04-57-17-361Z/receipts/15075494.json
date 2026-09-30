@@ -1,0 +1,46 @@
+{
+  "type": "odc.station-receipt/1",
+  "source": {
+    "network": "network.satnogs.org",
+    "attribution": "Data: SatNOGS Network contributors (https://network.satnogs.org)",
+    "license": "CC BY-SA",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "notice": "Open Downlink Custody is not affiliated with or endorsed by the Libre Space Foundation."
+  },
+  "observationId": 15075494,
+  "norad": 98330,
+  "transmitter": "DKkitSYmcbsaMq7upo6Ldg",
+  "mode": "GFSK",
+  "window": {
+    "start": "2026-09-29T04:13:29Z",
+    "end": "2026-09-29T04:19:08Z"
+  },
+  "station": {
+    "id": 4919,
+    "name": "B1LL",
+    "owner": "cammybwammy"
+  },
+  "frameCount": 2,
+  "frames": [
+    {
+      "i": 0,
+      "t": "2026-09-29T04:15:55Z",
+      "len": 80,
+      "leaf": "79ac803021ee02455dba18f6009e7d28079661adefb0d9dfadc6776db7494b1e",
+      "src": "https://s3.eu-central-1.wasabisys.com/satnogs-network/data_obs/2026/9/29/4/15075494/data_15075494_2026-09-29T04-15-55"
+    },
+    {
+      "i": 1,
+      "t": "2026-09-29T04:16:30Z",
+      "len": 80,
+      "leaf": "bcd7303a8d75c7bc8d41da8b51ee09743fe5c6b5c1084e98602e87a3d873e0a4",
+      "src": "https://s3.eu-central-1.wasabisys.com/satnogs-network/data_obs/2026/9/29/4/15075494/data_15075494_2026-09-29T04-16-30"
+    }
+  ],
+  "framesRoot": "01edf19b705480066dc16f4366a2d05457559f2a118648818db0c3bb983a668b",
+  "witnessedAt": "2026-09-29T04:57:31.347Z",
+  "attests": "frames served by the public SatNOGS archive for this observation at witnessedAt; station did not sign",
+  "claimId": "0x8856231ee9c638f70a9fd43782558e92758b23c59fc11d77a6b5a65b16212d31",
+  "sig": "MdNj7I8QN8qsp5GlSPF5USjkmPDcMRAFDVl4WGn9k6f1pNRbpyJ4jjKnP9A19kAXy36krs9uTsn1ds1+/T3vBA==",
+  "signerPub": "MCowBQYDK2VwAyEA+lWXmGkpas54MnWmHpwKr7Ee1ekI5PndX4j7+zndIS8="
+}

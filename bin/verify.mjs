@@ -3,6 +3,7 @@
 //
 //   node bin/verify.mjs --run out/<runId> --pub <base64 key>     records + proofs
 //   node bin/verify.mjs --run out/<runId> --pub <key> --refetch  also re-download frames
+//   node bin/verify.mjs --run out/<runId> --pub <key> --anchor <txid>  also check the on-chain anchor
 //   node bin/verify.mjs --frame f.bin --receipt out/<runId>/receipts/<obsId>.json
 //
 // --pub pins the custody agent's public key. Without it the key is read from the run
@@ -11,6 +12,7 @@ import { readFile, readdir } from "node:fs/promises";
 import { join } from "node:path";
 import { fetchFrame } from "../lib/satnogs.mjs";
 import { leafHash } from "../lib/merkle.mjs";
+import { verifyAnchorOnChain } from "../lib/anchor.mjs";
 import { verifyReceipt, verifyManifest, verifyManifestInBatch, verifyFrameInReceipt } from "../lib/verify.mjs";
 
 function args(argv) {
@@ -75,6 +77,15 @@ async function verifyRun(a) {
     console.log(`refetch: ${n} frames re-downloaded from SatNOGS, ${changed} changed, ${gone} unreachable`);
     fails += changed;
   }
+  if (a.anchor) {
+    const v = await verifyAnchorOnChain(a.anchor, batch.root);
+    console.log(
+      v.ok
+        ? `anchor: batch root is in an OP_RETURN of BSV tx ${v.txid} (${v.confirmations} confirmations${v.blocktime ? `, block time ${v.blocktime}` : ""})`
+        : `  FAIL anchor ${a.anchor}: ${v.reason}`,
+    );
+    if (!v.ok) fails++;
+  }
   console.log(fails === 0 ? "VERIFY: PASS" : `VERIFY: FAIL (${fails})`);
   if (fails) process.exitCode = 1;
 }
@@ -100,4 +111,4 @@ async function verifyOneFrame(a) {
 const a = args(process.argv.slice(2));
 if (a.run) await verifyRun(a);
 else if (a.frame && a.receipt) await verifyOneFrame(a);
-else console.log("usage: node bin/verify.mjs --run out/<runId> [--pub KEY] [--refetch] | --frame F --receipt R [--pub KEY]");
+else console.log("usage: node bin/verify.mjs --run out/<runId> [--pub KEY] [--refetch] [--anchor TXID] | --frame F --receipt R [--pub KEY]");

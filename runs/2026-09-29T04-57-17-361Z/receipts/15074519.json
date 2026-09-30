@@ -1,0 +1,130 @@
+{
+  "type": "odc.station-receipt/1",
+  "source": {
+    "network": "network.satnogs.org",
+    "attribution": "Data: SatNOGS Network contributors (https://network.satnogs.org)",
+    "license": "CC BY-SA",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "notice": "Open Downlink Custody is not affiliated with or endorsed by the Libre Space Foundation."
+  },
+  "observationId": 15074519,
+  "norad": 69015,
+  "transmitter": "JqdpyL9Ft5jMvQ8VXy57wx",
+  "mode": "FSK AX.100 Mode 5",
+  "window": {
+    "start": "2026-09-29T04:41:07Z",
+    "end": "2026-09-29T04:47:03Z"
+  },
+  "station": {
+    "id": 2461,
+    "name": "N1ESK-Loudon",
+    "owner": "n1esk"
+  },
+  "frameCount": 14,
+  "frames": [
+    {
+      "i": 0,
+      "t": "2026-09-29T04:42:53Z",
+      "len": 50,
+      "leaf": "8b953321c7d9ddb2f7e1b5c37ba0d83e7ec990722ce282934c2d0a2b36bc0300",
+      "src": "https://s3.eu-central-1.wasabisys.com/satnogs-network/data_obs/2026/9/29/4/15074519/data_15074519_2026-09-29T04-42-53"
+    },
+    {
+      "i": 1,
+      "t": "2026-09-29T04:43:12Z",
+      "len": 102,
+      "leaf": "75462a25a9af5da43f8535aa65f49983ebc504a728ae155e8e6818cf86136926",
+      "src": "https://s3.eu-central-1.wasabisys.com/satnogs-network/data_obs/2026/9/29/4/15074519/data_15074519_2026-09-29T04-43-12"
+    },
+    {
+      "i": 2,
+      "t": "2026-09-29T04:43:12Z",
+      "len": 102,
+      "leaf": "6a97bbba7a65e7fd5212ae9564b9e9c0b7db0cfff43ca1a2bc8dc7664cf98613",
+      "src": "https://s3.eu-central-1.wasabisys.com/satnogs-network/data_obs/2026/9/29/4/15074519/data_15074519_2026-09-29T04-43-12_1"
+    },
+    {
+      "i": 3,
+      "t": "2026-09-29T04:43:12Z",
+      "len": 50,
+      "leaf": "189ef9685d1b7908b009d890793fa6d0a1196d61644db32997ba78ed21c3ebb0",
+      "src": "https://s3.eu-central-1.wasabisys.com/satnogs-network/data_obs/2026/9/29/4/15074519/data_15074519_2026-09-29T04-43-12_2"
+    },
+    {
+      "i": 4,
+      "t": "2026-09-29T04:44:01Z",
+      "len": 116,
+      "leaf": "7d8a1bd101ea7a82794dcc82a4b7e43aea080881c43c80447429cb5f222c79ba",
+      "src": "https://s3.eu-central-1.wasabisys.com/satnogs-network/data_obs/2026/9/29/4/15074519/data_15074519_2026-09-29T04-44-01"
+    },
+    {
+      "i": 5,
+      "t": "2026-09-29T04:44:01Z",
+      "len": 50,
+      "leaf": "33748944c19ff6a2c353dcdaaa25f66584bbbc26e50fe46821475c69e0cc352b",
+      "src": "https://s3.eu-central-1.wasabisys.com/satnogs-network/data_obs/2026/9/29/4/15074519/data_15074519_2026-09-29T04-44-01_1"
+    },
+    {
+      "i": 6,
+      "t": "2026-09-29T04:44:10Z",
+      "len": 102,
+      "leaf": "e17c8f389424c5da1620da13424b29a20f392867a52535b020f157de996a6f72",
+      "src": "https://s3.eu-central-1.wasabisys.com/satnogs-network/data_obs/2026/9/29/4/15074519/data_15074519_2026-09-29T04-44-10"
+    },
+    {
+      "i": 7,
+      "t": "2026-09-29T04:44:39Z",
+      "len": 95,
+      "leaf": "223c89141578fa51f0c742ad71272667abdf712bc6122ab6df1d421ece8cfb74",
+      "src": "https://s3.eu-central-1.wasabisys.com/satnogs-network/data_obs/2026/9/29/4/15074519/data_15074519_2026-09-29T04-44-39"
+    },
+    {
+      "i": 8,
+      "t": "2026-09-29T04:44:39Z",
+      "len": 202,
+      "leaf": "f4e04a237d1e614abc27b8bc3d98d54b7e6ab3f61794bd6bc30cd67e24468f56",
+      "src": "https://s3.eu-central-1.wasabisys.com/satnogs-network/data_obs/2026/9/29/4/15074519/data_15074519_2026-09-29T04-44-39_1"
+    },
+    {
+      "i": 9,
+      "t": "2026-09-29T04:44:39Z",
+      "len": 116,
+      "leaf": "f874def5b28b183b171234e12cb8c8d7511b7dd987d569173163e589bb52fcde",
+      "src": "https://s3.eu-central-1.wasabisys.com/satnogs-network/data_obs/2026/9/29/4/15074519/data_15074519_2026-09-29T04-44-39_2"
+    },
+    {
+      "i": 10,
+      "t": "2026-09-29T04:44:39Z",
+      "len": 50,
+      "leaf": "0970d2cb8af94ec4262df150ab88330adb7f4749e30d10320bef757846c86001",
+      "src": "https://s3.eu-central-1.wasabisys.com/satnogs-network/data_obs/2026/9/29/4/15074519/data_15074519_2026-09-29T04-44-39_3"
+    },
+    {
+      "i": 11,
+      "t": "2026-09-29T04:44:49Z",
+      "len": 102,
+      "leaf": "7ebf3245f2897066f05b52d05272cfff69b9c18aabe2bc51e9b8000ec1f2fec7",
+      "src": "https://s3.eu-central-1.wasabisys.com/satnogs-network/data_obs/2026/9/29/4/15074519/data_15074519_2026-09-29T04-44-49"
+    },
+    {
+      "i": 12,
+      "t": "2026-09-29T04:44:58Z",
+      "len": 102,
+      "leaf": "108401fc5121643dadb999fd8b3da47a38dba089f09ec4e596f65295e76fe0c2",
+      "src": "https://s3.eu-central-1.wasabisys.com/satnogs-network/data_obs/2026/9/29/4/15074519/data_15074519_2026-09-29T04-44-58"
+    },
+    {
+      "i": 13,
+      "t": "2026-09-29T04:44:58Z",
+      "len": 102,
+      "leaf": "9fe122f9c0bd65a2018c9768b6a90f02054698c07fa3e4b71e97aa03c8b716bc",
+      "src": "https://s3.eu-central-1.wasabisys.com/satnogs-network/data_obs/2026/9/29/4/15074519/data_15074519_2026-09-29T04-44-58_1"
+    }
+  ],
+  "framesRoot": "feb415b9ce9d689e0de137b034c02a1a1d7ff4c15dc4895e15a8f6b657f0a1e4",
+  "witnessedAt": "2026-09-29T04:57:32.473Z",
+  "attests": "frames served by the public SatNOGS archive for this observation at witnessedAt; station did not sign",
+  "claimId": "0x2be5b86a0f6b378e1f4b35b78ccdadab59e56268cae825903ec8cae958a859eb",
+  "sig": "nYIVvMoJBsmPuXoWRU+wHlC4PmrAwmZCmNpAZEj5DanuxHq6FOOR5kf+9WYIx5ZmAaTmpUp+lgroPR1B8xTSAg==",
+  "signerPub": "MCowBQYDK2VwAyEA+lWXmGkpas54MnWmHpwKr7Ee1ekI5PndX4j7+zndIS8="
+}

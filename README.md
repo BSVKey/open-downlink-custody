@@ -11,6 +11,8 @@ dependencies (Node 20+).
 
 > Open Downlink Custody is not affiliated with or endorsed by the Libre Space Foundation.
 
+**Discussion:** [Libre Space community forum thread](https://community.libre.space/t/open-downlink-custody-custody-receipts-over-satnogs-data-feedback-and-requests-welcome/15384). Feedback and requests welcome.
+
 ## What it produces
 
 | Record | Scope | Contents |
@@ -34,6 +36,21 @@ npm test                                      # offline suite
 
 `--refetch` re-downloads every frame from SatNOGS and checks it against the receipts, so
 anyone can confirm a run without trusting the machine that produced it.
+
+## Anchored run: check it yourself
+
+[`runs/2026-09-29T04-57-17-361Z/`](runs/2026-09-29T04-57-17-361Z/) is a real run (3 passes,
+13 stations, 12 independent owners, 242 frames) whose batch root is anchored on BSV
+mainnet in tx [`3528965b42b56b4ca28b5b042b45b13f4a8bee16bd77b2e134531a8224cafe16`](https://whatsonchain.com/tx/3528965b42b56b4ca28b5b042b45b13f4a8bee16bd77b2e134531a8224cafe16).
+
+```bash
+node bin/verify.mjs --run runs/2026-09-29T04-57-17-361Z --refetch --anchor 3528965b42b56b4ca28b5b042b45b13f4a8bee16bd77b2e134531a8224cafe16 \
+  --pub MCowBQYDK2VwAyEA+lWXmGkpas54MnWmHpwKr7Ee1ekI5PndX4j7+zndIS8=
+```
+
+This checks every signature and inclusion proof, re-downloads all 242 frames from SatNOGS
+and compares them to the receipts, and confirms the batch root is in the anchor
+transaction's OP_RETURN. Any changed frame, record or root fails.
 
 ## Station operators: sign at the source
 
@@ -98,7 +115,9 @@ Yes. Get their run folder and their custody public key, then run
 **What is the on-chain anchor for?**
 Optional. Publishing the batch root on a public ledger fixes, permanently and publicly,
 that the records existed unchanged at that time. Only the root (a hash) is published,
-never data or personal information. Anchoring is a separate, manual step.
+never data or personal information. Anchoring is a separate, manual step:
+`bin/anchor.mjs` builds and signs the transaction (it needs `@bsv/sdk` and a small funded
+key) but never broadcasts it. `bin/verify.mjs --anchor <txid>` checks one.
 
 **Can I use this commercially?**
 The software, yes, under Apache-2.0. SatNOGS data remains CC BY-SA: credit its
@@ -108,7 +127,8 @@ contributors and share derived data under the same license.
 Embryo Space Inc. (DBA BSVKey). See [OWNERSHIP.md](OWNERSHIP.md) and [NOTICE](NOTICE).
 
 **How do I request a change?**
-Open an issue or a pull request. See [CONTRIBUTING.md](CONTRIBUTING.md). Requests from the
+Open an issue or a pull request (see [CONTRIBUTING.md](CONTRIBUTING.md)), or reply on the
+[forum thread](https://community.libre.space/t/open-downlink-custody-custody-receipts-over-satnogs-data-feedback-and-requests-welcome/15384). Requests from the
 Libre Space Foundation and station operators get priority.
 
 ## Record format

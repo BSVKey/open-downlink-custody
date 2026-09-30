@@ -1,0 +1,39 @@
+{
+  "type": "odc.station-receipt/1",
+  "source": {
+    "network": "network.satnogs.org",
+    "attribution": "Data: SatNOGS Network contributors (https://network.satnogs.org)",
+    "license": "CC BY-SA",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "notice": "Open Downlink Custody is not affiliated with or endorsed by the Libre Space Foundation."
+  },
+  "observationId": 15079165,
+  "norad": 98492,
+  "transmitter": "L4Vysu3e83B6WTbkiweFC8",
+  "mode": "GMSK",
+  "window": {
+    "start": "2026-09-29T03:46:49Z",
+    "end": "2026-09-29T03:53:30Z"
+  },
+  "station": {
+    "id": 2370,
+    "name": "JE6VHE UHF QFH",
+    "owner": "j_rocket_boy"
+  },
+  "frameCount": 1,
+  "frames": [
+    {
+      "i": 0,
+      "t": "2026-09-29T03:49:59Z",
+      "len": 65,
+      "leaf": "6b7582e9c7b588e04fa892221a86f8c08d6af1edb84f1a5f840f661d3926a860",
+      "src": "https://s3.eu-central-1.wasabisys.com/satnogs-network/data_obs/2026/9/29/3/15079165/data_15079165_2026-09-29T03-49-59"
+    }
+  ],
+  "framesRoot": "6b7582e9c7b588e04fa892221a86f8c08d6af1edb84f1a5f840f661d3926a860",
+  "witnessedAt": "2026-09-29T04:57:41.140Z",
+  "attests": "frames served by the public SatNOGS archive for this observation at witnessedAt; station did not sign",
+  "claimId": "0x3cba0e4b00fbf697677d5d754f28b233bbd5d3dd8aaeaf2f1a79ee7aa8a7b0a3",
+  "sig": "8sfSsfFEvlazD9+cdH3CgB1JQDoZjesirSGKEZp+UHwIrIByxESinRly185yMS2rdTigwhazoPs5LMk7XMKXCg==",
+  "signerPub": "MCowBQYDK2VwAyEA+lWXmGkpas54MnWmHpwKr7Ee1ekI5PndX4j7+zndIS8="
+}

@@ -1,0 +1,60 @@
+{
+  "type": "odc.station-receipt/1",
+  "source": {
+    "network": "network.satnogs.org",
+    "attribution": "Data: SatNOGS Network contributors (https://network.satnogs.org)",
+    "license": "CC BY-SA",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "notice": "Open Downlink Custody is not affiliated with or endorsed by the Libre Space Foundation."
+  },
+  "observationId": 15082870,
+  "norad": 98330,
+  "transmitter": "DKkitSYmcbsaMq7upo6Ldg",
+  "mode": "GFSK",
+  "window": {
+    "start": "2026-09-29T04:14:41Z",
+    "end": "2026-09-29T04:18:42Z"
+  },
+  "station": {
+    "id": 4326,
+    "name": "KB9LEB_Debian_12",
+    "owner": "jsterba"
+  },
+  "frameCount": 4,
+  "frames": [
+    {
+      "i": 0,
+      "t": "2026-09-29T04:15:55Z",
+      "len": 80,
+      "leaf": "79ac803021ee02455dba18f6009e7d28079661adefb0d9dfadc6776db7494b1e",
+      "src": "https://s3.eu-central-1.wasabisys.com/satnogs-network/data_obs/2026/9/29/4/15082870/data_15082870_2026-09-29T04-15-55"
+    },
+    {
+      "i": 1,
+      "t": "2026-09-29T04:15:58Z",
+      "len": 34,
+      "leaf": "f87782bd09f03407c0e7983461999cda96a54da270d86156bc018969251f4f1c",
+      "src": "https://s3.eu-central-1.wasabisys.com/satnogs-network/data_obs/2026/9/29/4/15082870/data_15082870_2026-09-29T04-15-58"
+    },
+    {
+      "i": 2,
+      "t": "2026-09-29T04:17:03Z",
+      "len": 88,
+      "leaf": "2648febc9d60604f443f520a3d90277d228de2d2e8261b43cea0d6e4ce6deb38",
+      "src": "https://s3.eu-central-1.wasabisys.com/satnogs-network/data_obs/2026/9/29/4/15082870/data_15082870_2026-09-29T04-17-03"
+    },
+    {
+      "i": 3,
+      "t": "2026-09-29T04:17:03Z",
+      "len": 56,
+      "leaf": "ffce57ac85146787700e62bcf28594fbf0c30056a89adf31d87c672ff204d723",
+      "src": "https://s3.eu-central-1.wasabisys.com/satnogs-network/data_obs/2026/9/29/4/15082870/data_15082870_2026-09-29T04-17-03_0"
+    }
+  ],
+  "framesRoot": "23dfd055ad01afbd5879efbc38e8c14ef917517f5a1762424dc73feb77c8e404",
+  "witnessedAt": "2026-09-29T04:57:31.347Z",
+  "attests": "frames served by the public SatNOGS archive for this observation at witnessedAt; station did not sign",
+  "claimId": "0x371059488943d8cb49a8b1e094483716f7ec5d978fd00c3584568919deaac80e",
+  "sig": "HmvnDswS2CCMHVUkQoij+JVCdZ4PDHas3n5EzV1VvgXpqFzu+qAuIsqKrmAj8Vjt2E3Ra2Ek43DBjtjp+lamDQ==",
+  "signerPub": "MCowBQYDK2VwAyEA+lWXmGkpas54MnWmHpwKr7Ee1ekI5PndX4j7+zndIS8="
+}

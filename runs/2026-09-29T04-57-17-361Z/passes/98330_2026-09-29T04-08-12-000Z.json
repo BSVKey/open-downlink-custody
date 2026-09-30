@@ -1,0 +1,550 @@
+{
+  "type": "odc.pass-manifest/1",
+  "source": {
+    "network": "network.satnogs.org",
+    "attribution": "Data: SatNOGS Network contributors (https://network.satnogs.org)",
+    "license": "CC BY-SA",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "notice": "Open Downlink Custody is not affiliated with or endorsed by the Libre Space Foundation."
+  },
+  "norad": 98330,
+  "window": {
+    "start": "2026-09-29T04:08:12.000Z",
+    "end": "2026-09-29T04:19:08.000Z"
+  },
+  "stationCount": 6,
+  "independentOwners": 6,
+  "uniqueFrames": 51,
+  "corroboratedFrames": 2,
+  "stations": [
+    {
+      "observationId": 15075420,
+      "stationId": 1461,
+      "stationName": "VE2DSK-VHF-UHF",
+      "owner": "ve2dsk",
+      "receiptId": "0xf85f3833a1eb7faebf2117cea508ba5cbaf64075edda9534c5b170b38f4b1aef",
+      "frameCount": 39,
+      "uniqueFrames": 39,
+      "missedFrames": 9,
+      "gaps": [
+        {
+          "from": "2026-09-29T04:14:02.000Z",
+          "to": "2026-09-29T04:15:58.000Z",
+          "frames": 9
+        }
+      ]
+    },
+    {
+      "observationId": 15082787,
+      "stationId": 310,
+      "stationName": "VA3TZA",
+      "owner": "yt2cq",
+      "receiptId": "0x9d0cd091f53085350cebc39fe6cea2eba0702f9502bf1f45946687ced1e5ab3c",
+      "frameCount": 1,
+      "uniqueFrames": 1,
+      "missedFrames": 47,
+      "gaps": [
+        {
+          "from": "2026-09-29T04:09:44.000Z",
+          "to": "2026-09-29T04:15:58.000Z",
+          "frames": 47
+        }
+      ]
+    },
+    {
+      "observationId": 15075425,
+      "stationId": 2617,
+      "stationName": "K2PI",
+      "owner": "k2pi",
+      "receiptId": "0x1aab06a70d711d77f0317871228a254f816ff253aefbadcee9764b7daef777b0",
+      "frameCount": 1,
+      "uniqueFrames": 1,
+      "missedFrames": 49,
+      "gaps": [
+        {
+          "from": "2026-09-29T04:09:48.000Z",
+          "to": "2026-09-29T04:17:03.000Z",
+          "frames": 49
+        }
+      ]
+    },
+    {
+      "observationId": 15075433,
+      "stationId": 3020,
+      "stationName": "Jim UHF",
+      "owner": "jim",
+      "receiptId": "0xc931be43ff19d5676fb87341fe89cb0cb3029f2550d57d18f34702c1b3c12832",
+      "frameCount": 6,
+      "uniqueFrames": 6,
+      "missedFrames": 26,
+      "gaps": [
+        {
+          "from": "2026-09-29T04:12:48.000Z",
+          "to": "2026-09-29T04:17:03.000Z",
+          "frames": 26
+        }
+      ]
+    },
+    {
+      "observationId": 15075494,
+      "stationId": 4919,
+      "stationName": "B1LL",
+      "owner": "cammybwammy",
+      "receiptId": "0x8856231ee9c638f70a9fd43782558e92758b23c59fc11d77a6b5a65b16212d31",
+      "frameCount": 2,
+      "uniqueFrames": 2,
+      "missedFrames": 21,
+      "gaps": [
+        {
+          "from": "2026-09-29T04:13:25.000Z",
+          "to": "2026-09-29T04:15:58.000Z",
+          "frames": 19
+        },
+        {
+          "from": "2026-09-29T04:17:03.000Z",
+          "to": "2026-09-29T04:17:03.000Z",
+          "frames": 2
+        }
+      ]
+    },
+    {
+      "observationId": 15082870,
+      "stationId": 4326,
+      "stationName": "KB9LEB_Debian_12",
+      "owner": "jsterba",
+      "receiptId": "0x371059488943d8cb49a8b1e094483716f7ec5d978fd00c3584568919deaac80e",
+      "frameCount": 4,
+      "uniqueFrames": 4,
+      "missedFrames": 8,
+      "gaps": [
+        {
+          "from": "2026-09-29T04:14:39.000Z",
+          "to": "2026-09-29T04:15:20.000Z",
+          "frames": 7
+        },
+        {
+          "from": "2026-09-29T04:16:30.000Z",
+          "to": "2026-09-29T04:16:30.000Z",
+          "frames": 1
+        }
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "leaf": "91cec49072105411bf7f1c9f8cef671e2420dd3ee026c7869b53887953720a81",
+      "firstSeen": "2026-09-29T04:09:44Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "a3a28d7eb53eead1632df2bf6e51cd926ed31c5d49124a1c1beaae816dbdf021",
+      "firstSeen": "2026-09-29T04:09:48Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "586a13dc10ded66f735b7d75d3031e9bb3a788aa55df770af1634f32a1a30553",
+      "firstSeen": "2026-09-29T04:10:22Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "a8e7fb01344dcfee42d7c0543e78aed9b9a77aebe5aa81bb4bc17e07405052ea",
+      "firstSeen": "2026-09-29T04:10:22Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "be149a55d58e22c656077aca8aa9bca322903b57023ad4709028433d2658745f",
+      "firstSeen": "2026-09-29T04:10:25Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "0564f856178de7a49c01129664f8975adb5b7942ea779309aa4f575dcaad4622",
+      "firstSeen": "2026-09-29T04:10:57Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "7f7db079730db971b7482d590afdb8feb46b7fc94d0f9bed18e529199876549a",
+      "firstSeen": "2026-09-29T04:10:57Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "0021a2f09c86f5071211190f98f17a1f9b82667452de8ce0d44bda54cb5e195e",
+      "firstSeen": "2026-09-29T04:10:58Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "06e880a850b1432e520e427d3fa2d096b39d97e307f603f9994c4a7f915a5f59",
+      "firstSeen": "2026-09-29T04:10:58Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "ad90f430c79c8660b62b94e5d8ad8af94036e33b1e223433d82407461409ab09",
+      "firstSeen": "2026-09-29T04:10:59Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "7ebfd2249a6d200fdd75a10ab7f28012c3900b1d2df2b32feb1124ea5cf0e145",
+      "firstSeen": "2026-09-29T04:11:00Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "7dd31789846c01cacc84bdc88718e79a9c26fc0258f92e84d0ab95c9be26f91b",
+      "firstSeen": "2026-09-29T04:11:01Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "5efb506e93a2b21bcc5ecb2150f2d367bc9bfcf8f70fdec12476b55a723b4671",
+      "firstSeen": "2026-09-29T04:11:34Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "eb69d01d8321b795ca63739cf264e008cae86bd7330e817563adef666ae944fc",
+      "firstSeen": "2026-09-29T04:11:35Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "1ab7eb3cd515493759753e4219c0c332b89c0aa5df885e0223592db6163b1791",
+      "firstSeen": "2026-09-29T04:11:36Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "32b50dc6176cc53624d814fc1448c5dd720242133ff63f475a56110ebaa22bc4",
+      "firstSeen": "2026-09-29T04:11:36Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "2a85e98b78eaf38e5306ce8212ca7c77e4dc0f455fb821e794c8550fe84ee2ee",
+      "firstSeen": "2026-09-29T04:11:38Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "164ce70b70af9d9a7c26ecda78e5639199071a8794b77d6b9329cd7e94dc1740",
+      "firstSeen": "2026-09-29T04:11:39Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "d9f9c568c13e380270fbc6ba713b3d49f7784b32c1bc988a8daf8ea3cd0b5e23",
+      "firstSeen": "2026-09-29T04:12:16Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "7a0ffd9fd08302b20b5261ae03e64af42d16c295c8a49bd0e0261385aa25a72b",
+      "firstSeen": "2026-09-29T04:12:48Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "f4c66b09f5f0a775f6059b7fde1b2c4f0ec544c430d92b397b382bed6b4f4c8b",
+      "firstSeen": "2026-09-29T04:12:48Z",
+      "seenBy": [
+        15075420,
+        15082787
+      ],
+      "independentOwners": 2
+    },
+    {
+      "leaf": "1f15efb57ca52e5d78d73c5a01d2d63758a24ba56bd11c0748a585131893a51b",
+      "firstSeen": "2026-09-29T04:12:49Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "dc7a98bacd9a881fa761758fd06454ae4231821ee39e050eccc0455edcb6ae5d",
+      "firstSeen": "2026-09-29T04:12:49Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "a4080ea3203115859003d1009426e2f36929d4b4d81822f2106d0fab216120e5",
+      "firstSeen": "2026-09-29T04:12:50Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "a6475d0ad179490aae89fb65ac3ed40142e611d6ffc1ae40eb4fca5e1b4cadc7",
+      "firstSeen": "2026-09-29T04:12:51Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "ea7616555ad06408cf5202e5c87e3743112ce8055c8793a07b0fe91240fc9d64",
+      "firstSeen": "2026-09-29T04:12:51Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "20738c6db0607104327e3a13cb9ef4a59ad269f9d318659be0150dc2ccf4c8c6",
+      "firstSeen": "2026-09-29T04:12:52Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "a2ee39e52bd4ceb09e6d7378efdcdc57aa8723f5831b16c5afa8fe280b9fcaad",
+      "firstSeen": "2026-09-29T04:12:53Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "28e970112c8e6656c013d9deb77cac51ab2f8fe300fb8c17369ff4e92cf031e7",
+      "firstSeen": "2026-09-29T04:13:25Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "d796333b0325660cfdeaf768a79886f47cbab0138f8a592d5cf4d6e8145920c2",
+      "firstSeen": "2026-09-29T04:13:26Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "61b683bff1aa99ba395c9371783017f0dbbb4a93aaf43810518e96a637e562a2",
+      "firstSeen": "2026-09-29T04:13:27Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "38ef98a21f426c8782018957fb20c32cb3467772eb63f9cb662fd53d00ee1a9a",
+      "firstSeen": "2026-09-29T04:13:29Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "60a5c35b96cc25de6ac181d516d9e3c46c0456b4f9dad4a61c4983dfe8b4995c",
+      "firstSeen": "2026-09-29T04:13:30Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "2c0a5343fe2f7b4465ce0cda8da1905e05c1cbcc3d8dd9993ffd7c9830ede860",
+      "firstSeen": "2026-09-29T04:13:42Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "452012a181363e9aafd4336e465c3dcd62ee8c816059aa9f7d0d60fd8a4c66ab",
+      "firstSeen": "2026-09-29T04:14:02Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "e7a8dffe090a1ff0d520dbc9c58ea9cd414a0e834b275cc5d343b28218c07d31",
+      "firstSeen": "2026-09-29T04:14:02Z",
+      "seenBy": [
+        15075425
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "703a71aac3dcb3e25dc71e0832dbd008f45159a9f69aa79f99910cccee5c1873",
+      "firstSeen": "2026-09-29T04:14:04Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "696fea0cecb706f969ebb7037ccd1d8d1c250cb4215652f70e185cbceb765e64",
+      "firstSeen": "2026-09-29T04:14:05Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "7830c7a7ea1cfc3ad4d3f4ec1a4dffb25cd24681ac623d269ca9435bb75da549",
+      "firstSeen": "2026-09-29T04:14:07Z",
+      "seenBy": [
+        15075433
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "dcf0681fb4d8d97b49820e2072cd6cd534217a24da91533170465b1fb73b9910",
+      "firstSeen": "2026-09-29T04:14:39Z",
+      "seenBy": [
+        15075433
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "fa9a004a14aeafac0904f325eeb4755dedcab7b2d44ecb1239462fc865c574d5",
+      "firstSeen": "2026-09-29T04:14:40Z",
+      "seenBy": [
+        15075433
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "6e7ce05df4695cac78067cb7c2d9691fb48dd36a9b4fe87971f091441aa90d75",
+      "firstSeen": "2026-09-29T04:14:43Z",
+      "seenBy": [
+        15075433
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "8016bc0a6f52ed622df2440e61aef3728a0fb8ed9061a3633ac055717e950b41",
+      "firstSeen": "2026-09-29T04:14:44Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "0b8452adddd4cecd8b56a4a4dd7c10add2677340dbb92946cd75970ca0cdcffe",
+      "firstSeen": "2026-09-29T04:15:17Z",
+      "seenBy": [
+        15075420
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "35980d91dcc3d737a4e17b30407e90b67468e1a544c7d8459304d2ef9e7e931e",
+      "firstSeen": "2026-09-29T04:15:17Z",
+      "seenBy": [
+        15075433
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "87e827a2214383f5667837e3a91e1e85c7e90d11b47bdc0bb854269f06fd9d61",
+      "firstSeen": "2026-09-29T04:15:20Z",
+      "seenBy": [
+        15075433
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "79ac803021ee02455dba18f6009e7d28079661adefb0d9dfadc6776db7494b1e",
+      "firstSeen": "2026-09-29T04:15:55Z",
+      "seenBy": [
+        15075494,
+        15082870
+      ],
+      "independentOwners": 2
+    },
+    {
+      "leaf": "f87782bd09f03407c0e7983461999cda96a54da270d86156bc018969251f4f1c",
+      "firstSeen": "2026-09-29T04:15:58Z",
+      "seenBy": [
+        15082870
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "bcd7303a8d75c7bc8d41da8b51ee09743fe5c6b5c1084e98602e87a3d873e0a4",
+      "firstSeen": "2026-09-29T04:16:30Z",
+      "seenBy": [
+        15075494
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "2648febc9d60604f443f520a3d90277d228de2d2e8261b43cea0d6e4ce6deb38",
+      "firstSeen": "2026-09-29T04:17:03Z",
+      "seenBy": [
+        15082870
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "ffce57ac85146787700e62bcf28594fbf0c30056a89adf31d87c672ff204d723",
+      "firstSeen": "2026-09-29T04:17:03Z",
+      "seenBy": [
+        15082870
+      ],
+      "independentOwners": 1
+    }
+  ],
+  "framesRoot": "c8676f0915f784951e5276f1bbb29a643196e8231ffa1fb00d632174f163d185",
+  "witnessedAt": "2026-09-29T04:57:31.347Z",
+  "claimId": "0x231babb82a73e9e27e555b477269526e25c4ed7379265889db27b209f71d95f7",
+  "sig": "7H+epIPcAUoG3OA1BLWvDS7/PJPre6ZwZ3ZdROkylcVrHfrQ75QGMU2E6niafJcqeHn+ti9ZrqlONohrlPRiDA==",
+  "signerPub": "MCowBQYDK2VwAyEA+lWXmGkpas54MnWmHpwKr7Ee1ekI5PndX4j7+zndIS8="
+}

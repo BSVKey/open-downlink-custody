@@ -1,0 +1,1206 @@
+{
+  "type": "odc.pass-manifest/1",
+  "source": {
+    "network": "network.satnogs.org",
+    "attribution": "Data: SatNOGS Network contributors (https://network.satnogs.org)",
+    "license": "CC BY-SA",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "notice": "Open Downlink Custody is not affiliated with or endorsed by the Libre Space Foundation."
+  },
+  "norad": 69015,
+  "window": {
+    "start": "2026-09-29T04:38:03.000Z",
+    "end": "2026-09-29T04:48:06.000Z"
+  },
+  "stationCount": 4,
+  "independentOwners": 4,
+  "uniqueFrames": 137,
+  "corroboratedFrames": 9,
+  "stations": [
+    {
+      "observationId": 15074500,
+      "stationId": 1461,
+      "stationName": "VE2DSK-VHF-UHF",
+      "owner": "ve2dsk",
+      "receiptId": "0x40ecb7bea75d17108df60e39382b777e9179c9a54413ebfcc96d1bfc3923c90b",
+      "frameCount": 32,
+      "uniqueFrames": 32,
+      "missedFrames": 39,
+      "gaps": [
+        {
+          "from": "2026-09-29T04:41:35.000Z",
+          "to": "2026-09-29T04:44:01.000Z",
+          "frames": 39
+        }
+      ]
+    },
+    {
+      "observationId": 15074511,
+      "stationId": 2097,
+      "stationName": "KU4YJ",
+      "owner": "ku4yj",
+      "receiptId": "0x871dde1558779c88c5e0ebe1faf008a6bba3011b4f417e6d26e4097ad742f1cb",
+      "frameCount": 99,
+      "uniqueFrames": 99,
+      "missedFrames": 17,
+      "gaps": [
+        {
+          "from": "2026-09-29T04:40:47.000Z",
+          "to": "2026-09-29T04:41:18.000Z",
+          "frames": 5
+        },
+        {
+          "from": "2026-09-29T04:42:53.000Z",
+          "to": "2026-09-29T04:44:39.000Z",
+          "frames": 12
+        }
+      ]
+    },
+    {
+      "observationId": 15074519,
+      "stationId": 2461,
+      "stationName": "N1ESK-Loudon",
+      "owner": "n1esk",
+      "receiptId": "0x2be5b86a0f6b378e1f4b35b78ccdadab59e56268cae825903ec8cae958a859eb",
+      "frameCount": 14,
+      "uniqueFrames": 14,
+      "missedFrames": 81,
+      "gaps": [
+        {
+          "from": "2026-09-29T04:41:15.000Z",
+          "to": "2026-09-29T04:47:05.000Z",
+          "frames": 81
+        }
+      ]
+    },
+    {
+      "observationId": 15074495,
+      "stationId": 760,
+      "stationName": "KD5QZG - VHF/UHF",
+      "owner": "adammelancon",
+      "receiptId": "0xe8727e97f0bfbe38f6351fab3d467854329d0d33631c3aadfcf9b0ae4235ec50",
+      "frameCount": 1,
+      "uniqueFrames": 1,
+      "missedFrames": 74,
+      "gaps": [
+        {
+          "from": "2026-09-29T04:43:41.000Z",
+          "to": "2026-09-29T04:47:53.000Z",
+          "frames": 74
+        }
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "leaf": "32c3448bd33aa0afdc686a1c53d15478f9bbd03bb321ad906b037704e19f6aff",
+      "firstSeen": "2026-09-29T04:38:44Z",
+      "seenBy": [
+        15074500
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "01851e95773373a4043e6d1e08285b1ecf671d02801388bcd310cd5ff3cc1273",
+      "firstSeen": "2026-09-29T04:39:00Z",
+      "seenBy": [
+        15074500
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "56bb8772721eca8f604f48733beb70d8cb9564a38e609e7bbcf95dfecf658111",
+      "firstSeen": "2026-09-29T04:39:00Z",
+      "seenBy": [
+        15074500
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "a34e0e3d7f93b44727f3497f8d645ef4efcb5bf1536d1870a31b1e4f35ef2307",
+      "firstSeen": "2026-09-29T04:39:00Z",
+      "seenBy": [
+        15074500
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "bfe5f00cacb2118143260827eec6d690008567141535cb8a1f8dbf24aa4cfcd2",
+      "firstSeen": "2026-09-29T04:39:00Z",
+      "seenBy": [
+        15074500
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "c9a3398c4788f8ed9fec1ee6597695cbb043f90e7c425aadbe85efe63cfe1ad6",
+      "firstSeen": "2026-09-29T04:39:28Z",
+      "seenBy": [
+        15074500
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "16e9725183209999268d2019f4aa55e121f828d7d474aed91a655c0f22d615a3",
+      "firstSeen": "2026-09-29T04:39:29Z",
+      "seenBy": [
+        15074500
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "770cbace5c9d14a95bccdb4ea10786f22c87d5a75dc0b80cb9da9bffa5d31998",
+      "firstSeen": "2026-09-29T04:39:30Z",
+      "seenBy": [
+        15074500
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "603f1cfdcd70d0b05d1dc91b28d9672228f535400b148faa9f622f467aecfe38",
+      "firstSeen": "2026-09-29T04:39:39Z",
+      "seenBy": [
+        15074500
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "bad89e7fb230dd77d8566b1c65fe38f2f8e00de67326d6acc1e40a98b0384ea2",
+      "firstSeen": "2026-09-29T04:39:39Z",
+      "seenBy": [
+        15074500
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "fcc1230af81ab3ecb404e539d7c9d94d24d70198f54bca14a44bd22470ae8ba9",
+      "firstSeen": "2026-09-29T04:39:39Z",
+      "seenBy": [
+        15074500
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "fdc886309c41aa49b06c705aa20921c408f512a56bc7a81807546ac85e219399",
+      "firstSeen": "2026-09-29T04:39:39Z",
+      "seenBy": [
+        15074500
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "89443ea3d5b7558a88b2e3398b3723653b17f454d036ba37471926d04e786bf7",
+      "firstSeen": "2026-09-29T04:39:49Z",
+      "seenBy": [
+        15074500
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "173f95d733e5aacd5b7416f245b5c6c355e75f8370e8ece40cb3931fc08c6705",
+      "firstSeen": "2026-09-29T04:40:27Z",
+      "seenBy": [
+        15074500
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "4fa1e5b3578754120252967048f469f1fd9861d609664bf952527e31d049188f",
+      "firstSeen": "2026-09-29T04:40:27Z",
+      "seenBy": [
+        15074500
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "e7e66e9c15ae0ddba5e85f8a9a4509b29e588923136d1072f1ea08e2cf1fa9e5",
+      "firstSeen": "2026-09-29T04:40:28Z",
+      "seenBy": [
+        15074500
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "08cdf339b9d68312254688d36da3f38582e22a8399bb896d5a35449e045ee6ed",
+      "firstSeen": "2026-09-29T04:40:37Z",
+      "seenBy": [
+        15074500
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "478de846251227dfae8d8e2c5c7646eaa386b52b0a1ffd2988a843caf90c4923",
+      "firstSeen": "2026-09-29T04:40:37Z",
+      "seenBy": [
+        15074500
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "68e788850afee39da528c8e020b45b69c1586add9b8c0398f7b0f7087795583b",
+      "firstSeen": "2026-09-29T04:40:37Z",
+      "seenBy": [
+        15074500
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "9f5cb12b6bb7f27a664781780bc2a812f687d716c1f56cbc19c8b9cb65039f8a",
+      "firstSeen": "2026-09-29T04:40:37Z",
+      "seenBy": [
+        15074500
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "efbc046566da205205dccfb392045d8e1997132f6c082e9882f7e97379e48c1a",
+      "firstSeen": "2026-09-29T04:40:37Z",
+      "seenBy": [
+        15074500
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "169207a40ffa2451db74b84c7038bcd11f733164e9dc46f2ce23aba43c67d80d",
+      "firstSeen": "2026-09-29T04:40:47Z",
+      "seenBy": [
+        15074500
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "e725468aaf24c02574853ee08bd9ce86ff49e4c21739ed84b0b0b6d1ad8d7e03",
+      "firstSeen": "2026-09-29T04:40:47Z",
+      "seenBy": [
+        15074500
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "02fab957a271e05bc88eb194c55912977ebffa4305afa9c22d1621801031a6f1",
+      "firstSeen": "2026-09-29T04:41:15Z",
+      "seenBy": [
+        15074500
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "29c0d2466680c1c8debccd36a30f9de3cc977e773a413e64887155167820a2f2",
+      "firstSeen": "2026-09-29T04:41:15Z",
+      "seenBy": [
+        15074500
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "803df9fe0f5f85c8bc90cfe71384494d739466a9be8b424c99b3f1cffc37bc2a",
+      "firstSeen": "2026-09-29T04:41:18Z",
+      "seenBy": [
+        15074500
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "41dd7443105cdab04e9cdf8526ae751286e838b54e0580d93eebd45bc113cec0",
+      "firstSeen": "2026-09-29T04:41:35Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "0511661fbdbd23b40b7b521d6962b4bb6d04a38608d59f554fbaa3b5e9af02a5",
+      "firstSeen": "2026-09-29T04:41:45Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "e2b72a62925a6309bdc99b6b2dc3c3fed9d00ae2a2f87e616449e3c781075b97",
+      "firstSeen": "2026-09-29T04:41:45Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "f4bfd5680106f97bbd1c5f89f1843909d972f697ec35d4a0f25cbaccd2cd858d",
+      "firstSeen": "2026-09-29T04:41:45Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "3b09fa97682fcc0a1c9cc6f3c8182a6de99ec2c17e748084e93d17de3bc4273b",
+      "firstSeen": "2026-09-29T04:42:12Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "4994b6d6f7dcc6b55a7efdd9af6a243cfc3f76a055172828269792162d6b142f",
+      "firstSeen": "2026-09-29T04:42:14Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "ac516f76bd4d8f11d5b5bffede37927122c253d798003e0cccd923ddd9402ff0",
+      "firstSeen": "2026-09-29T04:42:14Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "cef528b435c5b72203406a6eeec1b456a1671999fab8d6803a49b2a66e7ba963",
+      "firstSeen": "2026-09-29T04:42:14Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "8fb2fd568c6553b16f3f9e02c37ccf385185768e72d448f6ab153564f4a89aa8",
+      "firstSeen": "2026-09-29T04:42:23Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "f247d9d705fb583c22ae50cd4375894df5faa9e6ef99e443f8f3a03b8bc48060",
+      "firstSeen": "2026-09-29T04:42:24Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "fefaf2e2d0bb72da3dcc3a3db314031ce410756b170471e0efce0591ea130e7e",
+      "firstSeen": "2026-09-29T04:42:24Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "78d2075f4aae44885cba445c58b94f56680f1aa2d3fc5056898dd1cf33cac2f0",
+      "firstSeen": "2026-09-29T04:42:32Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "13e67e408e40a3cc9950dbb76557e1f7c9842c8df1283ce240628e8e8cbc5004",
+      "firstSeen": "2026-09-29T04:42:34Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "cebe2fe82875a7d9fed56f6eb62b187b13910a8c060e5337ec8c330df69569af",
+      "firstSeen": "2026-09-29T04:42:34Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "523056c797442053aa47f4616c65c9c012ffe84008312780549feb82fcd18247",
+      "firstSeen": "2026-09-29T04:42:43Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "c8269fa8ea00e0d031be60b086f511329390bf024c8b7d60562271cad473090a",
+      "firstSeen": "2026-09-29T04:42:43Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "cc6e3f8a002d80a929ce06bbf6bb2676f104a323b8a649d07486d8e634b06e73",
+      "firstSeen": "2026-09-29T04:42:43Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "8b953321c7d9ddb2f7e1b5c37ba0d83e7ec990722ce282934c2d0a2b36bc0300",
+      "firstSeen": "2026-09-29T04:42:53Z",
+      "seenBy": [
+        15074519
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "48cc378719b966e92ed61dd61d488a0044b5e733ad59c3b5902c9641c03371d5",
+      "firstSeen": "2026-09-29T04:43:02Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "fdc572f25bd46365eef8f3758df88a88ccaadaf1ea2183028ab753c213d27b0d",
+      "firstSeen": "2026-09-29T04:43:02Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "1e2cc2ef8d46111f22a2098be307f00a97fcb42f6ae617099c7d947cff1db10c",
+      "firstSeen": "2026-09-29T04:43:03Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "594b269d81dae723793b662c8ef80acbc21ce22da1a2278bacf04ae42127d385",
+      "firstSeen": "2026-09-29T04:43:03Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "189ef9685d1b7908b009d890793fa6d0a1196d61644db32997ba78ed21c3ebb0",
+      "firstSeen": "2026-09-29T04:43:12Z",
+      "seenBy": [
+        15074519
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "6a97bbba7a65e7fd5212ae9564b9e9c0b7db0cfff43ca1a2bc8dc7664cf98613",
+      "firstSeen": "2026-09-29T04:43:12Z",
+      "seenBy": [
+        15074519
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "75462a25a9af5da43f8535aa65f49983ebc504a728ae155e8e6818cf86136926",
+      "firstSeen": "2026-09-29T04:43:12Z",
+      "seenBy": [
+        15074519
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "e79b1f23a478beec5a52ef442c85044e15fa8787abda6dd0696c26f4c3134018",
+      "firstSeen": "2026-09-29T04:43:14Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "26abda197b743387ea81d87e10e17b16bc8815a72b4b086ea2ae9def2e2441ea",
+      "firstSeen": "2026-09-29T04:43:20Z",
+      "seenBy": [
+        15074500
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "1284a5d39636546c39ba18536deb09e13aa5f987d82bbd1158f8b9b9a4f2a119",
+      "firstSeen": "2026-09-29T04:43:21Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "4fad6da4b42082c2a65d33a06d3f3b94be012cf21a013abe19653db40950bc7e",
+      "firstSeen": "2026-09-29T04:43:22Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "ab3a8ec97cd5410d651ee78897a99deedb66aed48fa47326ea382b17d0264122",
+      "firstSeen": "2026-09-29T04:43:22Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "e6e4bd2267aa0ad22bc13f09bb9082015302d2243e77777db1f9eef452f5c579",
+      "firstSeen": "2026-09-29T04:43:22Z",
+      "seenBy": [
+        15074500,
+        15074511
+      ],
+      "independentOwners": 2
+    },
+    {
+      "leaf": "9353607b6eb4e7909a94b64ed7fdf56776845445cf4bde7d865df196db63e3e9",
+      "firstSeen": "2026-09-29T04:43:31Z",
+      "seenBy": [
+        15074500
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "68332cbd509b43953dc9d8390097a8a6062f018dba81dd8e88a4d7fd9d69bb32",
+      "firstSeen": "2026-09-29T04:43:32Z",
+      "seenBy": [
+        15074500
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "a46df6335c0e1bf80bd3529a306537ff97b5721801499867a96d3414fbb05ec5",
+      "firstSeen": "2026-09-29T04:43:32Z",
+      "seenBy": [
+        15074500
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "f7257043fa9b2a4ea729d414d3a6c6ea4f874d508922811e424b9703dc50383b",
+      "firstSeen": "2026-09-29T04:43:32Z",
+      "seenBy": [
+        15074500
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "f01b8e1e8148bd251a39433464fb0ad802a95bcb6768990a27d3fee40db557b9",
+      "firstSeen": "2026-09-29T04:43:35Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "09d48ea16660ac0a4e7f74c3c8cb3b44ac7482c821a64126caffec37d6110a11",
+      "firstSeen": "2026-09-29T04:43:41Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "2d382b1424e05294b42a2c487d0f764bff66aca878c7555d1b84cfd939cf791f",
+      "firstSeen": "2026-09-29T04:43:41Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "f7192a5e65be602bfce1ee00f92d5d2ce9e675cee9bb3098b22d66a7aa966347",
+      "firstSeen": "2026-09-29T04:43:41Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "766064029cb1ae2090ee1c8005499df518413db7cc8740b216262af8157c8340",
+      "firstSeen": "2026-09-29T04:43:43Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "1b7462f0b0e8a38509a96aca3b69aaa297ac086c116fe096cea0ec1153a88491",
+      "firstSeen": "2026-09-29T04:44:00Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "68c7289c352a11a54b70f9d4bda0e2540e7f9fcd122b293883f73217b37f3317",
+      "firstSeen": "2026-09-29T04:44:00Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "dd9dc876d4746d10a412be18bf7e8af5c7418c8bda5164e7d636e43122151582",
+      "firstSeen": "2026-09-29T04:44:00Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "33748944c19ff6a2c353dcdaaa25f66584bbbc26e50fe46821475c69e0cc352b",
+      "firstSeen": "2026-09-29T04:44:01Z",
+      "seenBy": [
+        15074511,
+        15074519
+      ],
+      "independentOwners": 2
+    },
+    {
+      "leaf": "7d8a1bd101ea7a82794dcc82a4b7e43aea080881c43c80447429cb5f222c79ba",
+      "firstSeen": "2026-09-29T04:44:01Z",
+      "seenBy": [
+        15074511,
+        15074519
+      ],
+      "independentOwners": 2
+    },
+    {
+      "leaf": "e17c8f389424c5da1620da13424b29a20f392867a52535b020f157de996a6f72",
+      "firstSeen": "2026-09-29T04:44:10Z",
+      "seenBy": [
+        15074519
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "665c3626751922a4a91d2f776edea04d2a3f9152d114af3cccd8bc248bee60b1",
+      "firstSeen": "2026-09-29T04:44:30Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "49b8965124ba87172a768744806ea64541cb1bab05b3006644f2b3c9de627c84",
+      "firstSeen": "2026-09-29T04:44:38Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "0970d2cb8af94ec4262df150ab88330adb7f4749e30d10320bef757846c86001",
+      "firstSeen": "2026-09-29T04:44:39Z",
+      "seenBy": [
+        15074511,
+        15074519
+      ],
+      "independentOwners": 2
+    },
+    {
+      "leaf": "223c89141578fa51f0c742ad71272667abdf712bc6122ab6df1d421ece8cfb74",
+      "firstSeen": "2026-09-29T04:44:39Z",
+      "seenBy": [
+        15074511,
+        15074519
+      ],
+      "independentOwners": 2
+    },
+    {
+      "leaf": "f4e04a237d1e614abc27b8bc3d98d54b7e6ab3f61794bd6bc30cd67e24468f56",
+      "firstSeen": "2026-09-29T04:44:39Z",
+      "seenBy": [
+        15074519
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "f874def5b28b183b171234e12cb8c8d7511b7dd987d569173163e589bb52fcde",
+      "firstSeen": "2026-09-29T04:44:39Z",
+      "seenBy": [
+        15074519
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "618215458149f0f23f9952b032bd82a47f9ab5fbbeb0c76020206a244ed38af6",
+      "firstSeen": "2026-09-29T04:44:48Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "662a20804048c7dc0dae3dce13cf69604a6231a6f1440ce4ad66db31ba1c94c1",
+      "firstSeen": "2026-09-29T04:44:49Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "77e6b98ddee5ff91b289392b817957dd6b064aa7398dd7078bfb163ba0c6c896",
+      "firstSeen": "2026-09-29T04:44:49Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "7ebf3245f2897066f05b52d05272cfff69b9c18aabe2bc51e9b8000ec1f2fec7",
+      "firstSeen": "2026-09-29T04:44:49Z",
+      "seenBy": [
+        15074511,
+        15074519
+      ],
+      "independentOwners": 2
+    },
+    {
+      "leaf": "c9ecd8f3634b6308752b37e292a91df87e69ee6c241e826c3e87e3e166306f2a",
+      "firstSeen": "2026-09-29T04:44:49Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "108401fc5121643dadb999fd8b3da47a38dba089f09ec4e596f65295e76fe0c2",
+      "firstSeen": "2026-09-29T04:44:58Z",
+      "seenBy": [
+        15074511,
+        15074519
+      ],
+      "independentOwners": 2
+    },
+    {
+      "leaf": "9fe122f9c0bd65a2018c9768b6a90f02054698c07fa3e4b71e97aa03c8b716bc",
+      "firstSeen": "2026-09-29T04:44:58Z",
+      "seenBy": [
+        15074511,
+        15074519
+      ],
+      "independentOwners": 2
+    },
+    {
+      "leaf": "458d59e12d0b1633d00c9279432a7beddccdafda3a0887527da3247a857d89e4",
+      "firstSeen": "2026-09-29T04:44:59Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "5478afbb8bb25c79a3f97b47f57c85247302455137add037d836d9d42c2b1ddd",
+      "firstSeen": "2026-09-29T04:44:59Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "ddd34f9b6f957e581131b7d7179ed96bcaee36705f145ea38a0bb9921dd91f5e",
+      "firstSeen": "2026-09-29T04:44:59Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "12d1e4d65b97c84ed87540e219a9d0ce86d38ac5bf41e7808f1ccb4cb98d5cbf",
+      "firstSeen": "2026-09-29T04:45:00Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "ef2bb0beff0f7d5be2646ee6efca4f6514e669c70704f09744a75b9d47ed5314",
+      "firstSeen": "2026-09-29T04:45:08Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "58a9506cfaf9303649f6e0ca0fd5ffa69325773bbf63c818ebacbdb8598b952e",
+      "firstSeen": "2026-09-29T04:45:17Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "2dec9298cf2795e652f4110be447a9287c45b4cecdbb248a1a93f7cd5c5999b9",
+      "firstSeen": "2026-09-29T04:45:46Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "9f630807883af32f9a846644a1324bf9eb57046dd37ed39a245e675bab95a3f2",
+      "firstSeen": "2026-09-29T04:45:47Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "ac58d6ee0bcb6182b9ba1a1f93d6f1446250b51667a2cee7fd4fbb5259c6cbea",
+      "firstSeen": "2026-09-29T04:45:47Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "795231da2b478b1b965fe4c54ca425e83bb23769da336664eda0b0752ca74ddb",
+      "firstSeen": "2026-09-29T04:45:57Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "c748857ebac9090ff62ba7b2eb3307da540c32f6b62c544a4b7b165eef7cd7b1",
+      "firstSeen": "2026-09-29T04:45:57Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "146d2b2dd8ad2da90c4e9c7e43e026abc530ce4f5aea556b5340a19c175a4792",
+      "firstSeen": "2026-09-29T04:46:06Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "51e5803735d3536487435032ec389bf7a2cfb072d49326a235182ce7e26f07bd",
+      "firstSeen": "2026-09-29T04:46:06Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "00256bedeb48c365bc686a240f2275d073d5d50545ac52725b8a37b9f82d6f88",
+      "firstSeen": "2026-09-29T04:46:07Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "17f8e218be34797edb97631509d427c9b75fa269ded351701935e5c68a66782c",
+      "firstSeen": "2026-09-29T04:46:07Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "3b9a2957759d11c94847660890e4ea1d908ecffe839821043d96d44650eefe9a",
+      "firstSeen": "2026-09-29T04:46:07Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "1cdf8efa9088bc9ddaf4652c918e1392369abded451a923984dc1ae276309291",
+      "firstSeen": "2026-09-29T04:46:16Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "3d5e2ad24b0cc642e34228829dc4bc506edd0a34de77ac7b2f7b9da531464926",
+      "firstSeen": "2026-09-29T04:46:16Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "59bcd7edf814ea2dacb09987610d463279e4cfdccab51eef497201012d5a7f56",
+      "firstSeen": "2026-09-29T04:46:16Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "b8d5cec0be87874b0ae79790f031d2e7390a0bec08ed71d423340cfa694302bd",
+      "firstSeen": "2026-09-29T04:46:35Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "2b2d5b9d13441acfa7b761342489d0bf99a2f090ed80934816681c09af71bb8d",
+      "firstSeen": "2026-09-29T04:46:43Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "4181a10a49db6d83d2e4e69b846a9f979abfa42db2518be4a0fe5c41542e591d",
+      "firstSeen": "2026-09-29T04:46:45Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "a61a68049e0150a98a717fe10edd20b6ddb6bfa6226fe699d50fac92941aa74c",
+      "firstSeen": "2026-09-29T04:46:45Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "e0177077fc8adec85a43b89c5fdf5e17724b5116ecef014e6dbf4727d3a20e71",
+      "firstSeen": "2026-09-29T04:46:45Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "a84ddcead4195db919ecdb3c553b3e0c534b03c0b2ec0e865dee5c0c08581f40",
+      "firstSeen": "2026-09-29T04:46:54Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "a8c65a6b5a42c7089c74f059457f60bd1936df117e22ca9119b282747dedc923",
+      "firstSeen": "2026-09-29T04:46:54Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "bf9536f382abe7b62c4202eed06e1f75c66d953cb76da8c6dd156f2ed23ab2da",
+      "firstSeen": "2026-09-29T04:46:54Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "16e9026a59b0032f3750b16b2ead63654d11d1c9be0edd0899f677853cb00dbd",
+      "firstSeen": "2026-09-29T04:47:04Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "34f485f699758fddb4726ab615b23f1717bdcc604155c8ad345ea9a8a937aed8",
+      "firstSeen": "2026-09-29T04:47:04Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "be50f0cc7bdaac79ea4d851f610f9207cdd33de530a9530a9ff99ed928481620",
+      "firstSeen": "2026-09-29T04:47:04Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "4adab99cc335c1bb6dce3e2e32c80742e7d5caace61f930afa36e745bc453717",
+      "firstSeen": "2026-09-29T04:47:05Z",
+      "seenBy": [
+        15074495,
+        15074511
+      ],
+      "independentOwners": 2
+    },
+    {
+      "leaf": "69e63f772a858b34381ec4d52672a944de18898f70971433b75484746d782424",
+      "firstSeen": "2026-09-29T04:47:05Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "d486fdb270388101f434046507ffe869f7b22cb4f33766efc140101018633d25",
+      "firstSeen": "2026-09-29T04:47:05Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "6cf2d0c27624026ca015a04de4044e169e15b68f9174f959cee2e4df5d512265",
+      "firstSeen": "2026-09-29T04:47:13Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "b754a426faf418b4d693ed9f03b48ce3551534f89f138a597cc4156b093d04bd",
+      "firstSeen": "2026-09-29T04:47:14Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "d1ec3ed83d62501cf686fd0b201c7646a8f5de5adbce978999b32b519806a1f1",
+      "firstSeen": "2026-09-29T04:47:14Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "c731487f7c1691440cf51ec5c908946af7764c4b5525c3ddff115d5173002963",
+      "firstSeen": "2026-09-29T04:47:24Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "e1bf403f4ec1ec3a9a24a7ea62e965f2caecce507a356ef701bfef8b700e98dd",
+      "firstSeen": "2026-09-29T04:47:24Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "83156530d410ed506ad91e0611ee7e3eeba29a7c4c4dbb0723374103c3884b35",
+      "firstSeen": "2026-09-29T04:47:33Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "d3f75abb6674aaf28aa63218a9cc0f46e9bdc49c2d27508a5b5733df849c9174",
+      "firstSeen": "2026-09-29T04:47:33Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "ea38c6ad64f47395a60b9e4819834e964919783ca03a2a8d7bdadc411d4cc546",
+      "firstSeen": "2026-09-29T04:47:33Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "8832a97021bbd989f7b1769e67512324e933fb628bcf57fd70f6c6bac5623a25",
+      "firstSeen": "2026-09-29T04:47:34Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "e9e5e404d2e3ba834c27aa0552cb3248725787d40bbc53b3ee2b77c0dff4d6af",
+      "firstSeen": "2026-09-29T04:47:34Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "c7c6d39e3878dfa206741b0b1ee2b685d9ddc2f94ac3b6fe071145e1da1d3807",
+      "firstSeen": "2026-09-29T04:47:35Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "d00b7bac38cbb859a7c7ee252906c8cd5cd4ed8046c2c8498e0effa131724497",
+      "firstSeen": "2026-09-29T04:47:42Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "63b37d6da40b5c77f02f806053287bf801c719cce334072a533c32d47fc9eb7a",
+      "firstSeen": "2026-09-29T04:47:43Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "68310416088be4dc5b9bfdda8aa08a74c7ce5fa896d2a664beb93dc143533a82",
+      "firstSeen": "2026-09-29T04:47:43Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "5644b716e32902948311b5f6d7f538144b895d01317cd27a2978f41531b3ffbf",
+      "firstSeen": "2026-09-29T04:47:46Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "5ba1cf09d45ba84d840c2e9223d7303ed81521d6a13bf324b0c2114a46db5caa",
+      "firstSeen": "2026-09-29T04:47:46Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "4c8de7f94eba300118e8e194b81a81fc95ac5fa39df4592b7c51007f0eaa13bd",
+      "firstSeen": "2026-09-29T04:47:53Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "845d9e865fe01194c2b86acc29e2811e552eecceae4d916543e164e58022f888",
+      "firstSeen": "2026-09-29T04:47:53Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    },
+    {
+      "leaf": "dfe990696adc393fb171f909618afb830d14c3c32c04014911984b00f14b7eba",
+      "firstSeen": "2026-09-29T04:47:53Z",
+      "seenBy": [
+        15074511
+      ],
+      "independentOwners": 1
+    }
+  ],
+  "framesRoot": "67f5f7317b625acca84d599d5969c35db17b854db578bb2da946e11a9c48f416",
+  "witnessedAt": "2026-09-29T04:57:32.473Z",
+  "claimId": "0xc8467ec4b69cffc9ec15238c32d8470b7c27a632cea4d26fbc9fb981818db67d",
+  "sig": "VsJdyd+xVgqlLSAOmg9Pm/lIKc7F2hT2YiBF7xIbugaJg6FEgLwFcaPY8+ZYERFCzeSkm+3weJRito9xRGivDA==",
+  "signerPub": "MCowBQYDK2VwAyEA+lWXmGkpas54MnWmHpwKr7Ee1ekI5PndX4j7+zndIS8="
+}

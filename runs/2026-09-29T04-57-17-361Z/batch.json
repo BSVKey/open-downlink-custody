@@ -1,0 +1,44 @@
+{
+  "type": "odc.custody-batch/1",
+  "source": {
+    "network": "network.satnogs.org",
+    "attribution": "Data: SatNOGS Network contributors (https://network.satnogs.org)",
+    "license": "CC BY-SA",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "notice": "Open Downlink Custody is not affiliated with or endorsed by the Libre Space Foundation."
+  },
+  "createdAt": "2026-09-29T04:57:41.877Z",
+  "passes": [
+    {
+      "index": 0,
+      "manifestId": "0x231babb82a73e9e27e555b477269526e25c4ed7379265889db27b209f71d95f7",
+      "norad": 98330,
+      "window": {
+        "start": "2026-09-29T04:08:12.000Z",
+        "end": "2026-09-29T04:19:08.000Z"
+      }
+    },
+    {
+      "index": 1,
+      "manifestId": "0xc8467ec4b69cffc9ec15238c32d8470b7c27a632cea4d26fbc9fb981818db67d",
+      "norad": 69015,
+      "window": {
+        "start": "2026-09-29T04:38:03.000Z",
+        "end": "2026-09-29T04:48:06.000Z"
+      }
+    },
+    {
+      "index": 2,
+      "manifestId": "0x714d114943e76229524c9a4a20c1c73a9de6555690b41d6242fe59683913e3c2",
+      "norad": 98492,
+      "window": {
+        "start": "2026-09-29T03:43:58.000Z",
+        "end": "2026-09-29T03:56:26.000Z"
+      }
+    }
+  ],
+  "root": "76d34ef5fb0b2d410dff97d486bf7d0e12c8bccd63e832916fe11ed3cfb87135",
+  "claimId": "0x52df1ef26424825239ca0d52da0380a95903fe1e665b0c4738060a7e90d28eb4",
+  "sig": "T8O+G1ht7OogNWQnuZbyQRY90d/gNVgYN6Xz6K2kpIemE8aFjWOC0uX6RY15pXBznoA2jYgK4C+ui80O/WANDA==",
+  "signerPub": "MCowBQYDK2VwAyEA+lWXmGkpas54MnWmHpwKr7Ee1ekI5PndX4j7+zndIS8="
+}
