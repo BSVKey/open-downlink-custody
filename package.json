@@ -5,7 +5,7 @@
   "type": "module",
   "private": true,
   "license": "Apache-2.0",
-  "author": "Embryo Space Inc. (DBA BSVKey) <support@embryospace.com>",
+  "author": "Embryo Space Inc. (DBA BSVKey) <embryospace@gmail.com>",
   "repository": { "type": "git", "url": "https://github.com/BSVKey/open-downlink-custody.git" },
   "engines": { "node": ">=20" },
   "scripts": {
