@@ -50,7 +50,7 @@ node bin/clocks.mjs --run runs/2026-09-29T04-57-17-361Z
 - Offsets are solved jointly, so one wrong clock is pinned on that station instead of shifting its neighbours.
 - SatNOGS frame times are whole seconds, so offsets of 1 s or less are within resolution. A flag based on a handful of frames is a hint to check, not a verdict.
 
-On a 12-hour run of 4 October 2026 (128 receipts, 281 transmissions heard by 3+ stations, 48 stations), almost every station sat at 0 s. Two stations showed offsets of about 6 to 7 seconds, each based on fewer than 10 frames.
+On a 12-hour run of 4 October 2026 (128 receipts, 281 transmissions heard by 3+ stations, 42 stations), almost every station sat at 0 s. Two stations showed offsets of about 6 to 7 seconds, each based on fewer than 10 frames.
 
 ## Anchored run: check it yourself
 
